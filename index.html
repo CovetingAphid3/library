@@ -7,25 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
-
-    <form action="" method="" id="form">
-        <label for="name_of_Book">Title of Book: </label>
-        <input type="text" name="name_of_Book" id="titleOfBook">
-        <label for="author">Author: </label>
-        <input type="text" name="author" id="authorOfBook">
-        <label for="Pages">Number of pages:</label>
-        <input type="number" name="Pages" id="numberOfPages">
+<button id="plusBtn">+</button>
+    <form action="" method="" id="form" style="display: none;">
+        <label for="titleOfBook">Title of Book: </label>
+        <input type="text" name="titleOfBook" id="titleOfBook">
+        <label for="authorOfBook">Author: </label>
+        <input type="text" name="authorOfBook" id="authorOfBook">
+        <label for="numberOfPages">Number of pages:</label>
+        <input type="number" name="numberOfPages" id="numberOfPages">
         <label for="year">Book year: </label>
         <input type="number" name="year" id="year" >
         <input type="submit" id="submitBtn">
     </form>
 
-    <div id="books">
-        <h2 class="title">Title: </h2>
-        <p class="author">Author:</p>
-        <p class="pages">Pages:</p>
-        <p class="year">Year:</p>
-        <p class="read">Has been read: </p>
+    <div id="library">
+        
+        <div id="books"></div>
     </div>
 <body>
     
